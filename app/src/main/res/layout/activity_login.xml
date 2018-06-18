@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150px"
+            android:layout_height="190px"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/icon_lock"/>
+
+        <TextView
+            android:id="@+id/thongbao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/txtPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:textColorHint="#95B40431"
+            android:textColor="#B40431"
+            android:inputType="numberPassword"
+            android:selectAllOnFocus="false"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textSize="50sp"
+            android:cursorVisible="false"/>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnone"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="1"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:fontFamily="@font/fiolex_girl"
+                android:onClick="btnone_Click"
+                android:textSize="30sp"
+                android:background="@drawable/round_button_login"
+                android:textColor="#B40431"/>
+
+            <Button
+                android:id="@+id/btntwo"
+                android:layout_marginLeft="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="2"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:fontFamily="@font/fiolex_girl"
+                android:onClick="btntwo_Click"
+                android:textSize="30sp"
+                android:background="@drawable/round_button_login"
+                android:textColor="#B40431"/>
+
+            <Button
+                android:id="@+id/btnthree"
+                android:layout_marginLeft="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="3"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:fontFamily="@font/fiolex_girl"
+                android:onClick="btnthree_Click"
+                android:textSize="30sp"
+                android:background="@drawable/round_button_login"
+                android:textColor="#B40431"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnfour"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="4"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:fontFamily="@font/fiolex_girl"
+                android:onClick="btnfour_Click"
+                android:textSize="30sp"
+                android:background="@drawable/round_button_login"
+                android:textColor="#B40431"/>
+
+            <Button
+                android:id="@+id/btnfive"
+                android:layout_marginLeft="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="5"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:fontFamily="@font/fiolex_girl"
+                android:onClick="btnfive_Click"
+                android:textSize="30sp"
+                android:background="@drawable/round_button_login"
+                android:textColor="#B40431"/>
+
+            <Button
+                android:id="@+id/btnsix"
+                android:layout_marginLeft="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="6"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:fontFamily="@font/fiolex_girl"
+                android:onClick="btnsix_Click"
+                android:textSize="30sp"
+                android:background="@drawable/round_button_login"
+                android:textColor="#B40431"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnseven"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="7"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:fontFamily="@font/fiolex_girl"
+                android:onClick="btnseven_Click"
+                android:textSize="30sp"
+                android:background="@drawable/round_button_login"
+                android:textColor="#B40431"/>
+
+            <Button
+                android:id="@+id/btneight"
+                android:layout_marginLeft="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="8"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:fontFamily="@font/fiolex_girl"
+                android:onClick="btneight_Click"
+                android:textSize="30sp"
+                android:background="@drawable/round_button_login"
+                android:textColor="#B40431"/>
+
+            <Button
+                android:id="@+id/btnnine"
+                android:layout_marginLeft="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="9"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:fontFamily="@font/fiolex_girl"
+                android:onClick="btnnine_Click"
+                android:textSize="30sp"
+                android:background="@drawable/round_button_login"
+                android:textColor="#B40431"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btnclear"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:onClick="btnclear_Click"
+                android:background="@drawable/round_button_login"
+                android:src="@drawable/ic_arrow_back_black_16dp"/>
+
+            <Button
+                android:id="@+id/btnzero"
+                android:layout_marginLeft="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="0"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:fontFamily="@font/fiolex_girl"
+                android:onClick="btnzero_Click"
+                android:textSize="30sp"
+                android:background="@drawable/round_button_login"
+                android:textColor="#B40431"/>
+
+            <ImageView
+                android:id="@+id/btnok"
+                android:layout_marginLeft="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:onClick="btnok_Click"
+                android:background="@drawable/round_button_login"
+                android:src="@drawable/ic_check_black_16dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

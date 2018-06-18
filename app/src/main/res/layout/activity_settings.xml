@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightOrange"
+    tools:context="com.example.nguyenducke.lovenotes.SettingsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_Info"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/lightOrangeDark"
+        app:title="Thông tin"
+        app:titleTextColor="@color/pink"></android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_Info"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:fontFamily="@font/rix_love_fool"
+            android:text="Đồ án ngôn ngữ lập trình Java"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fontFamily="@font/rix_love_fool"
+            android:textStyle="bold"
+            android:text="SE330.I21"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/rix_love_fool"
+            android:textStyle="italic"
+            android:text=" - GV Lý thuyết: \n                Huỳnh Tuấn Anh \n - GV HDTH: \n                Nguyễn Tấn Toàn" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:fontFamily="@font/rix_love_fool"
+            android:text=" - Nhóm 3K :"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/rix_love_fool"
+            android:text=" 15520328 \t Nguyễn Đức Kế \n 15520338 \t Lê Dương Khang \n 15520369 \t Huỳnh Văn Khoa" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_view_note"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:title="Nhật ký"
+        android:background="#70ffffff"
+        app:titleTextColor="@color/pink">
+
+    </android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/edtTitle_view_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Tiêu đề"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:fontFamily="@font/rix_love_fool"
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+
+    <ImageView
+        android:id="@+id/img_view_note"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/no_image" />
+
+    <EditText
+        android:id="@+id/edtContent_view_note"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Nội dung"
+        android:fontFamily="@font/rix_love_fool"
+        android:textSize="20dp"
+        android:inputType="textMultiLine"
+        android:textStyle="italic"/>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/btnSave_view_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/rix_love_fool"
+            android:textSize="18dp"
+            android:textColor="@color/pink"
+            android:text="Lưu" />
+
+        <Button
+            android:id="@+id/btnCancle_view_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:fontFamily="@font/rix_love_fool"
+            android:textSize="18dp"
+            android:textColor="@color/pink"
+            android:text="Huỷ" />
+    </LinearLayout>
+</LinearLayout>

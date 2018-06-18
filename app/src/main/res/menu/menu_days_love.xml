@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/share_menu_days_love"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:orderInCategory="1"
+        android:title="Chia sẻ"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/chupManHinh_menu_day_slove"
+        android:icon="@drawable/icon_camera"
+        android:orderInCategory="2"
+        android:title="Chụp ảnh màn hình"
+        app:showAsAction="always" />
+</menu>
